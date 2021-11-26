@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/BebasNeue/BebasNeue-Regular.ttf");
+}
+
+html {
+    font-size: var(--fontSize);
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    color: #202020;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
